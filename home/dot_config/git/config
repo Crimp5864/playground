@@ -1,0 +1,19 @@
+[init]
+	defaultBranch = main
+[user]
+	email = nicholaswilson97@gmail.com
+	name = Nicholas Wilson
+[color]
+	ui = auto
+[push]
+	default = simple
+[fetch]
+	prune = true
+[pull]
+	ff = only
+[core]
+	editor = vim
+	pager = less
+	autocrlf = input
+[rebase]
+	autoStash = true

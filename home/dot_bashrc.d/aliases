@@ -1,0 +1,3 @@
+alias chmodx='chmod +x'
+alias diff='diff --color=auto'
+alias vi='echo "Use: vim"'

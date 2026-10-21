@@ -1,0 +1,17 @@
+# Default values
+defaults
+auth        	on
+port        	587
+tls         	on
+tls_starttls	on
+logfile     	~/.local/state/msmtp/msmtp.log
+
+# Brevo SMTP relay
+account     	brevo
+host        	smtp-relay.brevo.com
+from        	<from address>
+user        	<user>
+password    	<password>
+
+# Default account
+account default: brevo
